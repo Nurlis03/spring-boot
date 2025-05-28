@@ -37,7 +37,7 @@ class GrafanaOpenTelemetryLoggingContainerConnectionDetailsFactory
 
 	GrafanaOpenTelemetryLoggingContainerConnectionDetailsFactory() {
 		super(ANY_CONNECTION_NAME,
-				"org.springframework.boot.actuate.autoconfigure.logging.otlp.OtlpLoggingAutoConfiguration");
+				"org.springframework.boot.opentelemetry.actuate.autoconfigure.logging.OpenTelemetryLoggingExportAutoConfiguration");
 	}
 
 	@Override

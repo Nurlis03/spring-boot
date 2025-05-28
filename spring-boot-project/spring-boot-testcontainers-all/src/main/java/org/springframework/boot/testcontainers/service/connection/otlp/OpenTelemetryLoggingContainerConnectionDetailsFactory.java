@@ -43,7 +43,7 @@ class OpenTelemetryLoggingContainerConnectionDetailsFactory
 
 	OpenTelemetryLoggingContainerConnectionDetailsFactory() {
 		super("otel/opentelemetry-collector-contrib",
-				"org.springframework.boot.actuate.autoconfigure.logging.otlp.OtlpLoggingAutoConfiguration");
+				"org.springframework.boot.opentelemetry.actuate.autoconfigure.logging.OpenTelemetryLoggingExportAutoConfiguration");
 	}
 
 	@Override
